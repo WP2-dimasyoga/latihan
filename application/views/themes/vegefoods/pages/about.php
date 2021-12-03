@@ -1,0 +1,88 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<div class="hero-wrap hero-bread" style="background-image: url('<?php echo get_theme_uri('images/barca2.jpg'); ?>');">
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-center justify-content-center">
+        <div class="col-md-9 ftco-animate text-center">
+            <p class="breadcrumbs"><span class="mr-2"><?php echo anchor(base_url(), 'Home'); ?></span> <span>Tentang Kami</span></p>
+          <h1 class="mb-0 bread">Tentang Kami</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_uri('images/barca3.jpg'); ?>);">
+                      <a href="https://www.youtube.com/watch?v=MpjUIFBowIM" class="icon popup-vimeo d-flex justify-content-center align-items-center">
+                          <span class="icon-play"></span>
+                      </a>
+                  </div>
+                  <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
+            <div class="heading-section-bold mb-4 mt-md-5">
+                <div class="ml-md-0">
+                  <h2 class="mb-4">Selamat Datang di Toko Online <?php echo get_store_name(); ?></h2>
+              </div>
+            </div>
+            <div class="pb-md-5">
+                <p><?php echo get_settings('store_description'); ?></p>
+                          <p><a href="<?php echo site_url('browse'); ?>" class="btn btn-primary">Belanja sekarang!</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+  
+      <section class="ftco-section" id="products">
+      <div class="container">
+          <div class="row no-gutters ftco-services">
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-shipped"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Gratis Ongkir</h3>
+          <span>Belanja minimal Rp <?php echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?></span>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-award"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">100% ori</h3>
+          <span>merchandise 100% original</span>
+        </div>
+      </div>    
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-award"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Kualitas Terbaik</h3>
+          <span>Kualitas dari barang Terbaik</span>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-customer-service"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Bantuan</h3>
+          <span>Bantuan 24/7 Selalu Online</span>
+        </div>
+      </div>      
+    </div>
+  </div>
+      </div>
+  </section>
